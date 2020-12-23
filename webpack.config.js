@@ -15,7 +15,8 @@ module.exports ={
                 loader:'url-loader',//url loader 做的 file-loader都可以做
                 options:{
                     name:'[name].[ext]', //打包出来的文件名字 placeholder 占位符 原来名字一样
-                    outputPath:'images/' //打包到images文件夹里
+                    outputPath:'images/' ,//打包到images文件夹里
+                    limit:2048 //大于2048kb 会放到dist文件里 小于会以base64的形式放到dist文件里
                 }
             }
         }]
