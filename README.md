@@ -80,3 +80,9 @@ entry:{
    main:’./src/index.js’  等价于 ：./src/index.js
 }
 
+## 12.23 日记录
+问题为什么 
+push
+不到
+不到main
+不到main上
