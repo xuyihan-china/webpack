@@ -3,7 +3,7 @@ const path = require('path')
 module.exports ={
     entry:'./src/index.js',
     output:{
-        path:path.resolve(__dirname,'dist'),
+        path:path.resolve(__dirname,'dist'),// __dirname 全局表示 /dist 文件夹
         filename:'dist.js'
     },
     module:{
